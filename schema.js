@@ -5,15 +5,15 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
     unique: true,
-    trim: true
   },
+
   email: {
     type: String,
     required: true,
     unique: true,
-    trim: true,
     lowercase: true
   },
+
   password: {
     type: String,
     required: true
@@ -25,12 +25,12 @@ const userSchema = new mongoose.Schema({
   profile: {
     firstName: {
       type: String,
-      trim: true
     },
+
     lastName: {
       type: String,
-      trim: true
     },
+
     age: {
       type: Number,
       min: 0
@@ -40,7 +40,7 @@ const userSchema = new mongoose.Schema({
     type: Date,
     default: null
   }
-}, { timestamps: true });
+});
 
 const User = mongoose.model('User', userSchema);
 module.exports= User;
