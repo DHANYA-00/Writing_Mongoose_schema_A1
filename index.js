@@ -28,9 +28,9 @@ mongoose.connect("mongodb://127.0.0.1:27017/mydatabase", {
 const testUserSchema = async () => {
   try {
     const newUser = new User({
-      username: "Dhanya",
-      email: "Dhanya@laks.com",
-      password: "dhanya@123456789",
+      username: "Dhans",
+      email: "Dhanya@lak.com",
+      password: "dhanya@123456",
       profile: {
         firstName: "Dhanya",
         lastName: "Lakshmi",
