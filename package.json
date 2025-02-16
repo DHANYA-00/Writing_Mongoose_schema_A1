@@ -1,12 +1,26 @@
 {
   "name": "express-simple-starter",
+  "version": "1.0.0",
   "private": true,
+  "description": "Design a user management system for a web application to handle user authentication, role-based access control, and profile management. The system will use a MongoDB schema to store user data.",
+  "homepage": "https://github.com/DHANYA-00/Writing_Mongoose_schema_A1#readme",
+  "bugs": {
+    "url": "https://github.com/DHANYA-00/Writing_Mongoose_schema_A1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DHANYA-00/Writing_Mongoose_schema_A1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
+    "express": "^4.21.2",
     "mongodb": "^6.11.0",
-    "mongoose": "^8.10.0"
+    "mongoose": "^8.10.1"
   }
 }

@@ -34,7 +34,7 @@ const testUserSchema = async () => {
       profile: {
         firstName: "Dhanya",
         lastName: "Lakshmi",
-        age: 25
+        age: 18
       }
     });
 
